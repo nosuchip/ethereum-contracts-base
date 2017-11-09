@@ -1,0 +1,28 @@
+{
+  "name": "ethereum-contracts-base",
+  "version": "1.0.0",
+  "description": "Base Ethereum contracts and snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosuchip/ethereum-contracts-base.git"
+  },
+  "keywords": [
+    "ethereum",
+    "ico",
+    "smart-contract",
+    "token"
+  ],
+  "author": "Np Such Ip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosuchip/ethereum-contracts-base/issues"
+  },
+  "homepage": "https://github.com/nosuchip/ethereum-contracts-base#readme",
+  "dependencies": {
+    "truffle": "^4.0.1"
+  }
+}
