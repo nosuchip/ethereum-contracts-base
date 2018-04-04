@@ -1,7 +1,7 @@
 pragma solidity ^0.4.15;
 
 
-contract SettingsProvider  {
+contract SettingsProvider /* is Permittable */  {
     mapping(string => uint256) private settings;
 
     function getSetting(string _name) public view onlyPermitted returns(uint256) {
